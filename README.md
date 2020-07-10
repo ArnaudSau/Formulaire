@@ -12,7 +12,7 @@ Réalisation d'un formulaire d'inscription à un événement.
 
 **Fonctionnalités :**
 
- * Fomulaire comportant : nom, prénom, adresse mail, téléphone
+ * Formulaire comportant : nom, prénom, adresse mail, téléphone
  * Enregistre les inscriptions en BDD
  * Graphisme
  * Message de confirmation d'inscription
