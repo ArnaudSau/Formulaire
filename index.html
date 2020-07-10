@@ -8,19 +8,15 @@
   <body>
 
  <header>
-
  </header>
 
-
-
   <div class="form">
-    <h1>Formulaire</h1>
-    <form id="inscription" action="action.php" method="post">
-      Nom : <input type="text" placeholder="Nom" name="nom" required /><br />
-      Prénom : <input type="text" placeholder="Prenom" name="prenom" required  /><br />
-      email : <input type="email" placeholder="Email" name="email" required  /><br />
-      téléphone : <input type="tel" placeholder="Téléphone" name="telephone" required /><br />
-
+    <h1>Inscription Événement</h1>
+    <form id="inscription" method="post">
+      Nom : <input type="text" placeholder="Nom" name="nom" required onblur="verifNom(this)" /><br />
+      Prénom : <input type="text" placeholder="Prenom" name="prenom" required onblur="verifNom(this)"  /><br />
+      Email : <input type="email" placeholder="Email" name="email" required onblur="verifMail(this)"  /><br />
+      Téléphone portable : <input type="tel" placeholder="Téléphone portable" name="telephone" required onblur="verifPortable(this)" /><br />
       <input type="submit" value="Envoyer" />
     </form>
   </div>
