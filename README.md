@@ -3,6 +3,7 @@
 Réalisation d'un formulaire d'incription à un événement.
 
 **Technologies :**
+
 *HTML
 *CSS
 *Javascript
@@ -10,6 +11,7 @@ Réalisation d'un formulaire d'incription à un événement.
 *Mysql
 
 **Fonctionnalités :**
+
 *Fomulaire comportant : nom, prénom, adresse mail, téléphone
 *Enregistre les inscriptions en BDD
 *Graphisme
@@ -17,5 +19,5 @@ Réalisation d'un formulaire d'incription à un événement.
 *Vérification des types
 *formulaire asynchrone
 
-**BDD**
+**BDD :**
 Le script de création de la base de donnée se nomme create.sql
