@@ -1,4 +1,4 @@
-//ASYNCRONE
+//ASYNCHRONE
 document.getElementById("inscription").addEventListener("submit", function(e) {
     e.preventDefault(); // comportement par defaut désactivé
 
