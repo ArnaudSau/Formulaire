@@ -1,6 +1,6 @@
 # Formulaire
 
-Réalisation d'un formulaire d'incription à un événement.
+Réalisation d'un formulaire d'inscription à un événement.
 
 **Technologies :**
 
