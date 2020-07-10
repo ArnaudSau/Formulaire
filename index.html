@@ -3,19 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>Formulaire événement</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-  <h1>Formulaire</h1>
+ <header>
 
-  <form id="inscription" action="action.php" method="post">
-    Nom : <input type="text" placeholder="Nom" name="nom"  /><br />
-    Prénom : <input type="text" placeholder="Prenom" name="prenom"  /><br />
-    email : <input type="email" placeholder="Email" name="email"  /><br />
-    téléphone : <input type="tel" placeholder="Téléphone" name="telephone" /><br />
+ </header>
 
-    <input type="submit" value="Envoyer" />
-  </form>
+
+
+  <div class="form">
+    <h1>Formulaire</h1>
+    <form id="inscription" action="action.php" method="post">
+      Nom : <input type="text" placeholder="Nom" name="nom" required /><br />
+      Prénom : <input type="text" placeholder="Prenom" name="prenom" required  /><br />
+      email : <input type="email" placeholder="Email" name="email" required  /><br />
+      téléphone : <input type="tel" placeholder="Téléphone" name="telephone" required /><br />
+
+      <input type="submit" value="Envoyer" />
+    </form>
+  </div>
+
 
   <script src="app.js"></script>
 
